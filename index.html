@@ -1,1 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>CV</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+           <img  class="photo" src="C:\Users\kiril\Desktop\photo_2022-12-18_15-46-43.jpg" alt="Profile photo" width="400px" height="400px"/>
 
+           <article class="headerinfo">
+           <h1 class="myName">Kiril Shorin</h1>
+           <h2 class="specialization">Trainee Front-end Web Developer</h2>
+           <h2 class="city">Kyiv,Ukraine</h2>
+           </article>
+
+           <nav class="contacts">
+            <ul class="list1">
+                <li class="tele"><b>Telegram</b><p class="telegram">kirilshorin<p></li>
+                <li><b>Phone</b><p class="phone">+380509870451<p></li>
+                <li><b>Email</b><p class="email"><a href="mailto:@kirilshorin8838@gmail.com">kirilshorin8838@gmail.com</a><p></li>    
+            </ul>
+        </nav>
+        </div>
+        
+    </header>
+    <main class="main_content">
+         <div class="about_me">
+            <h1>About me</h1>
+            <p>My name is Kiril, I'm 19 y.o. Nowadays I'm learning web 
+                development particularly with a focus on JavaScript.
+                At the moment I'm starting to learn the React.js or
+                Angular. Still choosing between to choose the one 
+                I like. I have development experience in the past 
+                but now I've decided back to programming and web dev.
+                I have developed responsive websites in the past for 
+                fun and solved various problems in Python. I am sure 
+                that I will be able to master this profession, as I have 
+                such important qualities as: technical mindset, incredible
+                determination, excellent perseverance, craving for new knowledge
+                and self-development. Now I'm studying for half a year and a 
+                feel that i have really good potential. If necessary, ready to 
+                move for the sake of knowledge. My dream is to make interesting
+                projects that people need.</p>
+         </div>
+
+         <div class="my_skills">
+            <h1>My skills</h1>
+            <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript Basic</li>
+                <li>OOP</li>
+                <li>GIT</li>
+                <li>C# Basic</li>
+            </ul>
+         </div>
+         <div class="code_example">
+            <h1>Code Example</h1>
+         <div class="code_block">
+            <pre><code>
+                var searchInsert = function(nums, target) {
+                    if (nums.includes(target)) {
+                        return nums.indexOf(target);
+                    } else {
+                        nums.push(target); 
+                        nums.sort(function (a,b) {
+                            return a - b;                               
+                        })
+                    return nums.indexOf(target); 
+                    }                               
+                    };
+            </code></pre>
+         </div>   
+         </div>
+                
+         </div>
+
+         <div class="projects">
+            <h1>Projects</h1>
+            <p>Will be soon...</p>
+         </div>
+
+         <div class="education">
+            <h1>Education</h1>
+            <article class="education_block">
+            <ul>
+                <li>Lyceum of information technologies(2015 - 2020)</li>
+                <li>Kyiv National University of Technology and Design</li>
+                <li>Courses
+                    <ul>
+                        <li>FreeCodeCamp HTML & CSS course</li>
+                        <li>HTML Academy free course</li>
+                        <li>CS50 lectures</li>
+                        <li>The Rolling Scopes School stage#0(<i>in progress</i>)</li>
+                    </ul>
+                </li>
+            </ul>
+            </article>
+         </div>
+
+         <div class="language">
+            <h1>Languages</h1>
+            <article class="language_block">
+                <ul>
+                    <li>Engilsh B2 (<i>Upper-Intermediate</i>)<br>
+                        Excellent knowledge of the language, easy to speak and take in information</li>
+                    <li>Ukrainian (<i>Native</i>)</li>
+                    <li>Russian (<i>Native</i>)</li>    
+                </ul>
+            </article>
+         </div>
+    </main>
+
+    <footer class="navigation">
+        <a href="https://rs.school/js/"/><img class="rss" src="https://anton-tretiak.github.io/rsschool-cv/img/icon-rsschool.svg" alt="rsschool logo" /></a>
+        <a href="https://www.instagram.com/kirilshorin/"><img class="insta" src="https://anton-tretiak.github.io/rsschool-cv/img/icon-instagram.svg"/></a>
+        <p>Kiril Shorin 2022</p>
+    </footer>
+</body>
+</html>

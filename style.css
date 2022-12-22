@@ -1,1 +1,250 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(145, 145, 145);
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    
+}
 
+.header{
+    display: block;
+    background-color: rgb(60, 60, 60);
+    max-width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.photo{
+    position: absolute;
+    width: 12.5em;
+    height: 12.5em;
+    margin: 0;
+    margin-top: 20%;
+    margin-left: 20%;
+    border-radius: 100%;
+}
+
+.headerinfo{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 17%;
+    display: block;
+
+}
+
+.myName{
+    color: orange;
+    font-size: 50px;
+}
+
+.contacts{
+    columns: 3;
+    font-size: 15px;
+    width: 100vw;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 45%;
+}
+
+a{
+    text-decoration: none;
+    color: orange !important;
+}
+
+.main_content{
+    text-align: center;
+    
+}
+
+.about_me{
+    position: relative;
+    max-width: 100vw;
+    margin: 0;
+    background-color: rgb(41, 41, 41);
+    display: block;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+
+.about_me p{
+    font-size: 20px;
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.about_me h1{
+    color: orange;
+    margin: 0;
+}
+
+.my_skills{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(60, 60, 60) ;
+    height: 30vh;
+}
+
+.my_skills h1{
+   
+    margin: 0;
+    color: orange;
+}
+
+.skills{
+   
+    margin-left: 12%;
+    width: 70%;
+    list-style-type: none;   
+    columns: 2;
+    font-size: 20px;
+    
+}
+
+.skills li{
+    line-height: 3;
+}
+
+
+.code_example{
+    display: block;
+    background-color:rgb(41, 41, 41);
+    margin: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: 40vh;
+    }
+
+  .code_example h1{
+    margin: 0;
+    color: orange;
+    }
+
+    .code_block{
+      display: block;
+      justify-content: center;
+      height: auto;
+      width: 100%;
+    }
+
+  pre{
+    text-align: left;
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+  }
+
+  code{
+    position: absolute;
+    padding-left: 28%;
+    padding-top: 2%;
+    }
+
+  
+  .projects{
+    display: block;
+    background-color:rgb(60, 60, 60);
+    margin: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .projects h1{
+    margin: 0;
+    color: orange;
+  }
+
+  .projects p{
+    font-size: 20px;
+    padding-top: 3%;
+  }
+
+  .education{
+    display: block;
+    background-color:rgb(41, 41, 41);
+    margin: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .education h1{
+    margin: 0;
+    color: orange;
+  }
+
+  .education_block{
+    width: 40vw;
+    display: block;
+    text-align: left;
+    position: relative;
+    margin-left: 30%;
+    margin-top:3% ;
+    font-size: 20px;
+  }
+
+  .language{
+    display: block;
+    background-color:rgb(60, 60, 60);
+    margin: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .language h1{
+    margin: 0;
+    color: orange;
+  }
+
+  .language_block{
+    width: 40vw;
+    display: block;
+    text-align: left;
+    position: relative;
+    margin-left: 30%;
+    margin-top:3% ;
+    font-size: 20px;
+  }
+
+  .navigation{
+    height: 10vh;
+    background-color:rgb(41, 41, 41);
+    margin: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .navigation .rss{
+    width: 80px;
+    
+  }
+
+  .navigation .insta{
+    width: 35px;
+  }
+  
+  .navigation p{
+    margin: 0;
+    padding-top: 3em;
+  }
